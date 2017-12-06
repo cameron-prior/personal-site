@@ -3,51 +3,69 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Cameron Prior</title>
+    <title>Under construction</title>
 
     <style type="text/css">
-        
-        body{ margin: 0; }
-
-        .parent{
-          position: relative;
-          height: 100vh;
-          width: 100vw;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-        }
-
-        .overlay{
-          background:url(https://avatars1.githubusercontent.com/u/14330935?s=400&u=1b0278ae7f5c73e4af8749df295d1239d16b8d33&v=4);
-          background-repeat:repeat;
-          -webkit-animation:60s rotate-left infinite linear;
-          -moz-animation:60s rotate-left infinite linear;
-          -o-animation:60s rotate-left infinite linear;
-          -ms-animation:60s rotate-left infinite linear;
-          animation:60s rotate-left infinite linear;
-          width:1000%;
-          height:1000%;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-        }
-
-        @-moz-keyframes rotate-left{
-            0%{ -moz-transform:rotate(0deg) translate(-50%, -50%); -moz-transform-origin: top left; }
-            100%{ -moz-transform:rotate(-360deg) translate(-50%, -50%); -moz-transform-origin: top left; }
-        }
-
-        @-webkit-keyframes rotate-left{
-            0%{ -webkit-transform:rotate(0deg) translate(-50%, -50%); -webkit-transform-origin: top left; }
-            100%{ -webkit-transform:rotate(-360deg) translate(-50%, -50%); -webkit-transform-origin: top left; }
-        }
-
-        @keyframes rotate-left{
-            0%{ transform:rotate(0deg) translate(-50%, -50%); transform-origin: top left; }
-            100%{ transform:rotate(-360deg) translate(-50%, -50%); transform-origin: top left; }
+        body {
+            margin: 0;
         }
         
+        .parent {
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .overlay {
+            background: url(https://avatars1.githubusercontent.com/u/14330935?s=400&u=1b0278ae7f5c73e4af8749df295d1239d16b8d33&v=4);
+            background-repeat: repeat;
+            -webkit-animation: 13s rotate-left infinite linear;
+            -moz-animation: 13s rotate-left infinite linear;
+            -o-animation: 13s rotate-left infinite linear;
+            -ms-animation: 13s rotate-left infinite linear;
+            animation: 13s rotate-left infinite linear;
+            width: 1000%;
+            height: 1000%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+        
+        @-moz-keyframes rotate-left {
+            0% {
+                -moz-transform: rotate(0deg) translate(-50%, -50%);
+                -moz-transform-origin: top left;
+            }
+            100% {
+                -moz-transform: rotate(-360deg) translate(-50%, -50%);
+                -moz-transform-origin: top left;
+            }
+        }
+        
+        @-webkit-keyframes rotate-left {
+            0% {
+                -webkit-transform: rotate(0deg) translate(-50%, -50%);
+                -webkit-transform-origin: top left;
+            }
+            100% {
+                -webkit-transform: rotate(-360deg) translate(-50%, -50%);
+                -webkit-transform-origin: top left;
+            }
+        }
+        
+        @keyframes rotate-left {
+            0% {
+                transform: rotate(0deg) translate(-50%, -50%);
+                transform-origin: top left;
+            }
+            100% {
+                transform: rotate(-360deg) translate(-50%, -50%);
+                transform-origin: top left;
+            }
+        }
     </style>
 </head>
 
@@ -55,9 +73,21 @@
 
     <div class="parent">
         <div class="overlay">
-    </div>
-</div>
 
+        </div>
+    </div>
+
+
+    <script>
+        window.onload = function() {
+
+            var audio = new Audio('./unemployable.mp3');
+            audio.loop = true;
+            audio.play();
+
+
+        }
+    </script>
 </body>
 
 </html>
